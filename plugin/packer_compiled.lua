@@ -151,6 +151,12 @@ _G.packer_plugins = {
     path = "/home/deviaan/.local/share/nvim/site/pack/packer/start/neo-tree.nvim",
     url = "https://github.com/nvim-neo-tree/neo-tree.nvim"
   },
+  neorg = {
+    config = { "\27LJ\2\2Ä\1\0\0\6\0\14\0\0196\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\f\0005\2\3\0004\3\0\0=\3\4\0024\3\0\0=\3\5\0025\3\t\0005\4\a\0005\5\6\0=\5\b\4=\4\n\3=\3\v\2=\2\r\1B\0\2\1K\0\1\0\tload\1\0\0\16core.dirman\vconfig\1\0\0\15workspaces\1\0\0\1\0\1\nnotes\f~/notes\19core.concealer\18core.defaults\1\0\0\nsetup\nneorg\frequire\0" },
+    loaded = true,
+    path = "/home/deviaan/.local/share/nvim/site/pack/packer/start/neorg",
+    url = "https://github.com/nvim-neorg/neorg"
+  },
   ["nui.nvim"] = {
     loaded = true,
     path = "/home/deviaan/.local/share/nvim/site/pack/packer/start/nui.nvim",
@@ -206,6 +212,10 @@ time([[Defining packer_plugins]], false)
 time([[Config for nvim-cmp]], true)
 require('config.nvim-cmp')
 time([[Config for nvim-cmp]], false)
+-- Config for: neorg
+time([[Config for neorg]], true)
+try_loadstring("\27LJ\2\2Ä\1\0\0\6\0\14\0\0196\0\0\0'\1\1\0B\0\2\0029\0\2\0005\1\f\0005\2\3\0004\3\0\0=\3\4\0024\3\0\0=\3\5\0025\3\t\0005\4\a\0005\5\6\0=\5\b\4=\4\n\3=\3\v\2=\2\r\1B\0\2\1K\0\1\0\tload\1\0\0\16core.dirman\vconfig\1\0\0\15workspaces\1\0\0\1\0\1\nnotes\f~/notes\19core.concealer\18core.defaults\1\0\0\nsetup\nneorg\frequire\0", "config", "neorg")
+time([[Config for neorg]], false)
 -- Load plugins in order defined by `after`
 time([[Sequenced loading]], true)
 vim.cmd [[ packadd cmp-cmdline ]]

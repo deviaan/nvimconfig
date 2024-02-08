@@ -10,6 +10,7 @@ local opts = {
 -----------------
 
 vim.g.mapleader = " "
+vim.g.maplocalleader = ","
 
 -----------------
 -- Normal mode --
