@@ -195,6 +195,11 @@ _G.packer_plugins = {
     path = "/home/deviaan/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["statusline.lua"] = {
+    loaded = true,
+    path = "/home/deviaan/.local/share/nvim/site/pack/packer/start/statusline.lua",
+    url = "https://github.com/beauwilliams/statusline.lua"
+  },
   ["telescope-fzf-native.nvim"] = {
     loaded = true,
     path = "/home/deviaan/.local/share/nvim/site/pack/packer/start/telescope-fzf-native.nvim",

@@ -80,6 +80,9 @@ return require('packer').startup(function(use)
         }
     }
 
+    -- Status line
+    use 'beauwilliams/statusline.lua'
+
     -- Neorg
     use {
         "nvim-neorg/neorg",
@@ -102,7 +105,6 @@ return require('packer').startup(function(use)
         requires = "nvim-lua/plenary.nvim",
         tag = "*",
     }
-
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
